@@ -7,7 +7,7 @@ class Order {
         this.size = size;
         this.flavour = flavour;
         
-    };
+    }
 
     //Add method to return the sentence
         output() {
@@ -19,3 +19,10 @@ class Order {
 const name = document.getElementById('name');
 const size = document.getElementById('size');
 const flavour = document.querySelector('input[name="flavour"]:checked');
+
+// Making an object with new variables
+const smoothie = new Order(name, size, flavour);
+
+// Output values to empty <p>
+document.getElementById('output').innerHTML = `${smoothie.output}`;
+
