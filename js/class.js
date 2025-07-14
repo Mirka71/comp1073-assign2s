@@ -15,6 +15,7 @@ class Order {
         } 
 }
 
+// create variables to grab form input values
 const name = document.getElementById('name');
 const size = document.getElementById('size');
-const flavour = 
+const flavour = document.querySelector('input[name="flavour"]:checked');
