@@ -15,3 +15,6 @@ class Order {
         } 
 }
 
+const name = document.getElementById('name');
+const size = document.getElementById('size');
+const flavour = 
